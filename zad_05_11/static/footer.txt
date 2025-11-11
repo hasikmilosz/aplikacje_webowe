@@ -1,0 +1,3 @@
+<footer>
+<p>Miłosz Hasik 4C</p>
+</footer>

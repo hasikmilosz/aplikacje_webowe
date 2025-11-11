@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>kontakt</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+{{menu}}
+<h1>Kontakt</h1>
+
+<form method="post" action="/kontakt">
+  <label for="name">Imię: </label>
+  <input id="name" type="text" name="name" required>
+  <br>
+  <label for="surname">Nazwisko: </label>
+  <input id="surname" type="text" name="surname" required>
+  <br>
+  <label for="email">Email: </label>
+  <input id="email" type="email" name="email" required>
+  <br>
+  <label for="message">Treść wiadomości: </label>
+  <textarea id="message" cols="50" rows="30" name="message" required></textarea>
+  <br>
+  <input type="submit" value="Potwierdź">
+</form>
+
+{{footer}}
+</body>
+</html>
