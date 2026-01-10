@@ -1,7 +1,7 @@
-import Home from './routes/Home'
+import Home from './routes/home.tsx'
 import About from './routes/about'
 import Contact from './routes/contact'
-import './App.css'
+import './App'
 import { BrowserRouter, Routes, Route } from "react-router"
 
 function App() {

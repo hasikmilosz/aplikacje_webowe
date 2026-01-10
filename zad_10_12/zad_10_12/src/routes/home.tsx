@@ -1,9 +1,9 @@
-import {Link,Outlet } from "react-router";
+import {Link, Outlet} from "react-router";
 
-export default function About() {
+export default function Home() {
     return (
         <div>
-            <h1>About</h1>
+            <h1>Home</h1>
             <br></br>
             <Link to="/">Home</Link>
             <br></br>

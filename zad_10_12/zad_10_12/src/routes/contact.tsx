@@ -1,15 +1,15 @@
-import { Outlet } from "react-router";
+import {Link, Outlet} from "react-router";
 
 export default function Contact() {
     return (
         <div>
             <h1>Contact</h1>
-            <a href="/">Home</a>
-            <p></p>
-            <a href="/about">About</a>
-            <p></p>
-            <a href="/contact">Contact</a>
-            {/* will either be <Home/> or <Settings/> */}
+            <br></br>
+            <Link to="/">Home</Link>
+            <br></br>
+            <Link to="/about">About</Link>
+            <br></br>
+            <Link to="/contact">Contact</Link>
             <Outlet />
         </div>
     );
