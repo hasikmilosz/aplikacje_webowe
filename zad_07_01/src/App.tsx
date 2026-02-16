@@ -4,7 +4,7 @@ import Header from "./components/Header/Header.tsx"
 import Footer from "./components/Footer/Footer.tsx"
 import {BrowserRouter,Routes,Route} from "react-router";
 import Home from "./routes/Home/Home.tsx";
-import Categories from "./routes/Categories/Categories.tsx";
+import Contact from "./routes/Contact/Contact.tsx";
 import Posts from "./routes/Posts/Posts.tsx";
 
 function App() {
@@ -13,13 +13,11 @@ function App() {
         <BrowserRouter>
             <Header/>
             <Navbar/>
-            <main>
                 <Routes>
                     <Route path="/" element={<Home/>}/>
                     <Route path="/posts" element={<Posts/>}/>
-                    <Route path="/categories" element={<Categories/>}/>
+                    <Route path="/contact" element={<Contact/>}/>
                 </Routes>
-            </main>
             <Footer/>
         </BrowserRouter>
     </>

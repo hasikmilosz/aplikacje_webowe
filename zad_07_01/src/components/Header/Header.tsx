@@ -10,8 +10,8 @@ export default function Header(){
                 return 'Strona główna'
             case '/posts':
                 return 'Wpisy'
-            case '/categories':
-                return 'Kategorie'
+            case '/contact':
+                return 'Kontakt'
             default:
                 return 'Moja Aplikacja'
         }

@@ -5,6 +5,6 @@ export default function Navbar() {
     return <nav className={styles.Navbar}>
         <Link to={"/"}>Strona główna</Link>
         <Link to={"/posts"}>Wpisy</Link>
-        <Link to={"/categories"}>Kategorie</Link>
+        <Link to={"/contact"}>Kontakt</Link>
     </nav>
 }
