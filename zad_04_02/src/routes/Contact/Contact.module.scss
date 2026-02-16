@@ -1,0 +1,98 @@
+.Contact {
+  height: 80vh;
+  width: 100%;
+  background-color: #FDF5E6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    color: #5D4037;
+    font-size: 50px;
+  }
+
+  div {
+    margin: 20px;
+    padding: 20px;
+    width: 50%;
+    background-color: #3e683b;
+    border-radius: 20px;
+      box-shadow: 0 5px 15px rgba(93, 64, 55, 0.1);
+      border-left: 3px solid #D35400;
+      max-width: 100%;
+
+      form {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+      label {
+        display: block;
+        color: #c8afa8;
+        font-weight: 500;
+        font-size: 18px;
+        margin-bottom: 2px;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 6px 8px;
+        border: 1px solid #E0E0E0;
+        border-radius: 6px;
+        font-size: 12px;
+        background-color: white;
+        color: #5D4037;
+        margin-bottom: 8px;
+        box-sizing: border-box;
+      }
+
+      input[type="text"]:hover,
+      input[type="email"]:hover,
+      textarea:hover {
+        border-color: #1E5631;
+      }
+
+      input[type="text"]:focus,
+      input[type="email"]:focus,
+      textarea:focus {
+        outline: none;
+        border-color: #D35400;
+        box-shadow: 0 0 0 2px rgba(211, 84, 0, 0.1);
+        background-color: #FDF5E6;
+      }
+
+      textarea {
+        min-height: 60px;
+        resize: vertical;
+        font-family: inherit;
+      }
+
+      input[type="submit"] {
+        background-color: #D35400;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 15px;
+        font-size: 12px;
+        font-weight: 600;
+        cursor: pointer;
+        width: 100%;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-top: 4px;
+        border-bottom: 2px solid #A04000;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #1E5631;
+        border-bottom-color: #0A2F1A;
+        transform: translateY(-1px);
+      }
+
+      ::placeholder {
+        color: #B0B0B0;
+        font-size: 11px;
+      }
+    }
+    }
+  }
